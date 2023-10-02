@@ -1,0 +1,110 @@
+/* Add CSS styles for your Contact Me page here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eddcd9;
+}
+
+header {
+    background-color: #f2ebe9;
+    color: #de5499;
+    text-align: center;
+    padding: 10px 0;
+    height: 60px;
+    margin-top: -20px;
+
+}
+nav{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border:2px #ea84a5 solid;
+    background-color: #ea84a5;
+    text-decoration: none;
+}
+
+.contact {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    padding: 20px;
+    border: 0px solid #ccc;
+    background-color: #eddcd9;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    padding-left: 320px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 10px;
+    margin-top: -30px;
+    
+}
+
+.contact-form button {
+    background-color: #edad63;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 200px;
+    text-align: right;
+    margin-left: 500px;
+   
+    max-width: fit-content;
+    text-align: center;
+}
+footer {
+    border: 2px solid #f2ebe9;
+    background-color:#f2ebe9;
+    
+    padding:10px 0;
+    height: 190px;
+    max-height: fit-content;
+   
+}
+img{
+    height: 30px;
+
+}
+#pimg{
+     
+    margin-top:  -120px;
+    margin-left: 750px;
+    
+    
+    
+}
+#details{
+    padding-left: 400px;
+   margin-top:  -150px;
+   text-align: justify;
+}
+#foot{
+   
+    padding-left: 350px;
+    
+    
+    
+}
